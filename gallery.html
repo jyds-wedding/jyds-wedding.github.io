@@ -43,7 +43,6 @@
 	
 	<link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -66,10 +65,6 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-    <style>
-        .ns{font-family: 'Noto Sans KR', sans-serif;}
-    </style>
-
 	</head>
 	<body>
 		<div id="fh5co-wrapper">
@@ -77,15 +72,14 @@
 	
 		<div class="fh5co-hero" data-section="home">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/DSC06589.jpg);">
+			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="container">
 							<div class="col-md-10 col-md-offset-1">
 								<div class="animate-box">
-									<h1>The Wedding</h1>
-									<h2 class="ns">준영 &amp; 다슬</h2>
-									<p><span>02.05.2022</span></p>
+									<h1>Nuptial</h1>
+									<h2>Our Gallery</h2>
 								</div>
 							</div>
 						</div>
@@ -98,16 +92,24 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-					<h1 id="fh5co-logo"><a href="index.html">Test</a></h1>
+					<h1 id="fh5co-logo"><a href="index.html">Nuptial</a></h1>
 					<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li class="active"><a href="index.html" >Home</a></li>
-							<li><a href="index.html">Groom &amp; Bride</a></li>
-							<li><a href="index.html">When &amp; Where</a></li>
-							<li><a href="index.html">Guest</a></li>
-							<li><a href="index.html">Gallery</a></li>
-							<li><a href="index.html">Blog</a></li>
+							<li><a href="index.html" >Home</a></li>
+							<li>
+								<a href="groom-bride.html" class="fh5co-sub-ddown">Groom &amp; Bride</a>
+								<ul class="fh5co-sub-menu">
+									<li><a href="#">Dropdown Menu 1</a></li>
+									<li><a href="#">Dropdown Menu 2</a></li>
+									<li><a href="#">Dropdown Menu 3</a></li>
+									<li><a href="#">Dropdown Menu 4</a></li>
+								</ul>
+							</li>
+							<li><a href="when-where.html">When &amp; Where</a></li>
+							<li><a href="guest.html">Guest</a></li>
+							<li class="active"><a href="gallery.html">Gallery</a></li>
+							<li><a href="blog.html">Blog</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -115,46 +117,47 @@
 		</header>
 
 		<!-- end:header-top -->
-		
-		<div id="fh5co-couple" class="fh5co-section-gray">
-			<div class="container">
-				<div class="row row-bottom-padded-md animate-box">
-					<div class="col-md-6 col-md-offset-3 text-center">
-						<div class="col-md-5 col-sm-5 col-xs-5 nopadding">
-							<img src="images/june.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-							<h3 class="ns">신랑 변준영</h3>
-						</div>
-						<div class="col-md-2 col-sm-2 col-xs-2 nopadding"><h2 class="amp-center"><i class="icon-heart"></i></h2></div>
-						<div class="col-md-5 col-sm-5 col-xs-5 nopadding">
-							<img src="images/dasle.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
-							<h3 class="ns">신부 전다슬</h3>
-						</div>
-					</div>
-				</div>
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="col-md-12 text-center heading-section">
-							<h2>Are Getting Married</h2>
-							<p><strong>on Feb 5, 2022 &mdash; Seoul, Korea</strong></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="fh5co-countdown">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center animate-box">
-					<p class="countdown">
-						<span id="days"></span>
-						<span id="hours"></span>
-						<span id="minutes"></span>
-						<span id="seconds"></span>
-					</p>
-				</div>
-			</div>
-		</div>
 
-		<div id="fh5co-started" style="background-image:url(images/cover_bg_2.jpg);" data-stellar-background-ratio="0.5">
+		<div id="fh5co-gallery">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h2>Wedding Gallery</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="gallery animate-box">
+							<a class="gallery-img image-popup image-popup" href="images/gallery-1.jpg"><img src="images/gallery-1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+						</div>
+						<div class="gallery animate-box">
+							<a class="gallery-img image-popup" href="images/gallery-7.jpg"><img src="images/gallery-7.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="gallery animate-box">
+							<a class="gallery-img image-popup" href="images/gallery-6.jpg"><img src="images/gallery-6.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+						</div>
+						<div class="gallery animate-box">
+							<a class="gallery-img image-popup" href="images/gallery-2.jpg"><img src="images/gallery-2.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+						</div>
+						<div class="gallery animate-box">
+							<a class="gallery-img image-popup" href="images/gallery-5.jpg"><img src="images/gallery-5.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="gallery animate-box">
+							<a class="gallery-img image-popup" href="images/gallery-3.jpg"><img src="images/gallery-3.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+						</div>
+						<div class="gallery animate-box">
+							<a class="gallery-img image-popup" href="images/gallery-4.jpg"><img src="images/gallery-4.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="fh5co-started" style="background-image:url(images/cover_bg_2.jpg);"data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 			<div class="container">
 				<div class="row animate-box">
@@ -186,13 +189,13 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<footer>
 			<div id="footer">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h2>JY &amp; DS</h2>
+							<h2>Jack &amp; Rose</h2>
 						</div>
 						<div class="col-md-6 col-md-offset-3 text-center">
 							<p class="fh5co-social-icons">
