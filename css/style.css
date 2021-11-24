@@ -681,7 +681,6 @@ figure {
 
 #fh5co-started {
   position: relative;
-  background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
 }
@@ -696,7 +695,7 @@ figure {
 }
 
 #fh5co-started .form-control {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(220, 220, 220, 0.4);
   border: none !important;
   color: #fff;
   font-size: 16px !important;
